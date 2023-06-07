@@ -5,22 +5,26 @@ body {
   padding: 0;
 
 }
+.content{
+  background-color: #f2ded6;
+  height: 690px;
+}
+.container01 {
+   display: flex;
 
-.container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  background-color: #ffffff;
-  padding: 30px 0;
 }
 
 .device {
   width: 360px;
-  height: 740px;
-  border-radius: 30px;
-  box-shadow: 0 0 20px 1px rgba(0, 0, 0, .1);
+  height: 630px;
+  margin-left: 500px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 27px ;
+  border-color: darkred;
+  background: linear-gradient(166.74deg, #F8EADE 10.76%, #FBE5D3 54.55%, #F8EADE 88.97%);
   background-color: #ffffff;
-  overflow: hidden;
+ 
 }
 
 .device.dark {
@@ -34,8 +38,6 @@ body {
   align-items: center;
 }
 
-
-
 button {
   font-family: 'Montserrat', sans-serif;
   border: 0;
@@ -44,21 +46,24 @@ button {
   color:rgba(47, 11, 11, 1);
   border-radius: 30px;
   font-weight: 400;
-  font-weight: 12px;
+  font-size: 17px;
   cursor: pointer;
   transition: all.3s ease-out;
   outline: none;
-  margin-left: 90px;
-  margin-top: 220px;
+  margin-left: 105px;
+  margin-top: 300px;
+ 
   
-
   
-}
-
-button:hover {
+  
+  }
+  
+  button:hover {
   opacity: 0.7;
-}
+  }
+
 .page2 {
+  border-radius: 27px ;
   justify-content: center;
   background-color: #ffffff;
      width: 100%;
@@ -201,7 +206,7 @@ top: 388px;
 /* Green Gradient */
 
 background: linear-gradient(160deg, #5BAC9E 7.23%, #1B775F 88.66%, #5BAC9E 137.51%);
-box-shadow: 0px 10px 35px #FFFFFF;
+box-shadow: 0px 10px 35px #ffffff;
 border-radius: 29.5px;
 }
 .sign h3{
@@ -236,7 +241,7 @@ flex-grow: 0;
   position: absolute;
 width: 214px;
 height: 18px;
-top: 85px;
+top: 55px;
 text-align: center;
 
 /* 12 */
@@ -285,6 +290,8 @@ color: #5E3612;
 
 }
 .box02{
+ 
+  border-radius: 27px ;
   position: relative;
   width: 390px;
   height: 640px;
@@ -342,30 +349,9 @@ color: #5E3612;
 display: contents;
 
 }
-button {
-font-family: 'Montserrat', sans-serif;
-border: 0;
-background: linear-gradient(166.74deg, #F8EADE 10.76%, #FBE5D3 54.55%, #F8EADE 88.97%);
-padding: 20px 25px;
-color:rgba(47, 11, 11, 1);
-border-radius: 30px;
-font-weight: 400;
-font-weight: 12px;
-cursor: pointer;
-transition: all.3s ease-out;
-outline: none;
-margin-left: 115px;
-margin-top: 320px;
-
-
-
-}
-
-button:hover {
-opacity: 0.7;
-}
 
 .box03{
+  border-radius: 27px ;
   position: relative;
   width: 360px;
   height: 640px;
@@ -373,6 +359,7 @@ opacity: 0.7;
   color:rgba(47, 11, 11, 1);  
 }
 .box04{
+  border-radius: 27px ;
   position: relative;
   width: 360px;
   height: 640px;
@@ -380,6 +367,7 @@ opacity: 0.7;
   color:rgba(47, 11, 11, 1);  
 }
 .box05{
+  border-radius: 27px ;
   position: relative;
   width: 360px;
   height: 640px;
@@ -387,6 +375,7 @@ opacity: 0.7;
   color:rgba(47, 11, 11, 1);  
 }
 .box06{
+  border-radius: 27px ;
   position: relative;
   width: 360px;
   height: 640px;
@@ -394,6 +383,7 @@ opacity: 0.7;
   color:rgba(47, 11, 11, 1);  
 }
 .box07{
+  border-radius: 27px ;
   position: relative;
   width: 360px;
   height: 640px;
@@ -401,6 +391,7 @@ opacity: 0.7;
   color:rgba(47, 11, 11, 1);  
 }
 .box08{
+  border-radius: 27px ;
   position: relative;
   width: 360px;
   height: 640px;
@@ -408,6 +399,7 @@ opacity: 0.7;
   color:rgba(47, 11, 11, 1);  
 }
 .box09{
+  border-radius: 27px ;
   position: relative;
   width: 360px;
   height: 640px;
@@ -415,6 +407,7 @@ opacity: 0.7;
   color:rgba(47, 11, 11, 1);  
 }
 .box10{
+  border-radius: 27px ;
   position: relative;
   width: 360px;
   height: 640px;
@@ -423,7 +416,15 @@ opacity: 0.7;
 }
 
 .box03 p{
-  margin-left: 20px;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+.box04 p{
+  margin-left: 25px;
+  margin-top: 10px;
+}
+.box05 p{
+  margin-left: 25px;
   margin-top: 10px;
 }
 .icon{
@@ -768,20 +769,7 @@ height: 40.3px;
 left: 30px;
 top: 450px;
 }
-.Pocket01 img {
-  display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 0px;
-gap: 76px;
 
-position: absolute;
-width: 367px;
-height: 44.3px;
-left: 0px;
-top: 450px;
-}
 .number05 span{
   box-sizing: border-box;
 
@@ -1224,9 +1212,30 @@ top: 175px;
 }
 .mypocket p{
   position: absolute;
-  width: 186px;
+  width: 206px;
   height: 290px;
   left: 25px;
+  top: 100px;
+  
+  /* 16 */
+  
+  
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.5px;
+  line-height: 26px;
+  /* identical to box height */
+  
+  
+  /* Dark Text */
+  
+  color: #2F0B0B;
+}
+.mypocket011 p{
+  position: absolute;
+  width: 206px;
+  height: 290px;
+  left: 2px;
   top: 100px;
   
   /* 16 */
@@ -2084,3 +2093,4 @@ line-height: 15px;
 color: #771B1B;
 
 }
+
